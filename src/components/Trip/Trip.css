@@ -1,0 +1,36 @@
+.trip{
+    margin: 20px;
+}
+.trip__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.trip__wrap{
+    position: relative;
+}
+
+.trip__direction{
+    margin: 10px 0 10px 0;
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.trip__transfer{
+    text-align: center;
+    position: absolute;
+    left: 235px;
+    top: -30px;
+    background: #fff;
+    padding: 0 10px;
+    color: rgb(224, 140, 43);
+    
+}
+
+.trip__span{
+    color: rgb(43, 127, 224);;
+}
+
